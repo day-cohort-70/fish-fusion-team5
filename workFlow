@@ -1,0 +1,16 @@
+WORK FLOW:
+
+
+  (T)  Read every step in the fish fusion project
+    (T) Create dependency graph
+      (T)  Create sequence diagram
+        (F) make group github fishfusion team 5
+          (F) Write code out in English one module at a time
+              (F)fishBoat.js
+              (F) fishMonger.js
+              (F) restaurant.js
+                  (F)  Create sequence diagram
+                    (F)  Double check that we have all of the info needed and make sure our GitHub is set up
+                      (F) Talk to Instructors before coding
+                          (F) Start coding
+                              (F) Finish up sequence diagram ( danny upgarde baby engligh)
