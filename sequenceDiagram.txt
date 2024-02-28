@@ -1,0 +1,33 @@
+participant main
+participant menu.js
+participant restaurant.js
+participant fishMonger.js
+participant fishingBoat.js
+main->fishingBoat.js
+loo
+note over fishingBoat.js
+end
+fishMonger.js->fishingBoat.js:monger is requesting the var named boatInventory()
+fishingBoat.js-->fishMonger.js: return an array of fish objects
+fishingBoat.js-->main
+main->fishMonger.js
+loo
+note over fishMonger.js
+end
+fishMonger.js->restaurant.js:importing function named mongerInventory()
+fishMonger.js<-restaurant.js:requesting info
+fishMonger.js-->main
+restaurant.js->menu.js:providing info to be used by menu
+restaurant.js<-menu.js:requesting said info \n
+main->restaurant.js
+loo
+note over restaurant.js
+end
+restaurant.js-->main:provide the function fishMenu() to main.js\n
+main->restaurant.js:requesting the info
+main->menu.js
+loo
+note over menu.js
+end
+menu.js->main
+note over main

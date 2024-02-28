@@ -4,7 +4,7 @@ WORK FLOW:
   (T)  Read every step in the fish fusion project
     (T) Create dependency graph
       (T)  Create sequence diagram
-          (F) Write code out in English one module at a time
+          (T) Write code out in English one module at a time
               (F)fishBoat.js
               (F) fishMonger.js
               (F) restaurant.js
