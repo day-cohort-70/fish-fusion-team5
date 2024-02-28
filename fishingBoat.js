@@ -41,7 +41,7 @@ return  daily catch
 
 -we will need to use reqire and export to connect this function to the other modules
 
-Update!
+
 
 
 

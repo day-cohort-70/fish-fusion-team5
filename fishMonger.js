@@ -4,12 +4,12 @@ const {boatInventory } = require("./fishingBoat.js")
 ENGLISH:
 
 import and invoke the boatInventory function
-create mongerInventory function fo that the restaurant can look at what to purchase
+create mongerInventory function so that the restaurant can look at what to purchase
 mongerInventory should be should be an array of objects.
 Fish Monger Purchasing Constraints
 
         -buys exactly 10 of each inexpensive( $7.50 or lower) fish 
-        - if there are ess then 10 of one type of fish the buyer will not buy it
+        - if there are less then 10 of one type of fish the buyer will not buy it
         
 
 

@@ -1,10 +1,12 @@
 
 
 const {mongerInventory} = require("./fishingmonger.js)
+
+// const fishmongerInventory = mongerInventory()
 /*
 ENGLISH:
 
-we will need to inporting the fishmonger function to be used in the resturant
+we will need to import the fishmonger function to be used in the resturant
 each day will have diffrent max price requirements:
 -day 1 can spend 5 per fish
 -day 2 is 7
@@ -12,7 +14,9 @@ each day will have diffrent max price requirements:
 
 Chef Purchasing Constraints:
 
-The fishmonger lets the chef of a restuarant specify what their maximum budget is per fish. For example, a chef can tell the monger that she can only spend $5.00 per fish. The function should then return only fish that cost $5.00 or less. This could be any amount and will be information that will be provided to the monger inventory function.
+The fishmonger lets the chef of a restuarant specify what their maximum budget is per fish. 
+For example, a chef can tell the monger that she can only spend $5.00 per fish. The function should then return only fish that cost $5.00 or less. 
+This could be any amount and will be information that will be provided to the monger inventory function.
 
 From your array of purchased fish, you must filter that down to the fish that meet the price constraint of the restaurant chef.
 
@@ -27,7 +31,7 @@ function fish menu should return the given HTML string and should build a HTML v
 
 
 Code english
-
+fishmenu (daily price limit)
 taking fishmonger function and passing in the price as paramiter this should give an array
 then the chef looks through the array for price ex(<=$5), total monger inventory amount,
 
@@ -35,7 +39,52 @@ if the monger has a fishtype (ex tuna) at <=$5
 then buy 50% of the total amount of that fish type held by monger
 return the name of the fish and return 3 diffrent meal types with that fish name (ex tuna soup)
 
-export {fishMenu};
+export {fishMenu} this should return HTML
+
+Code:
+
+export const fishMenu = (dailyPrice)=> {
+ 
+    container = []
+    
+  for (const price of fish in fishMongerInventory) {
+    if (price is <= 5){
+        then buy inventory/2
+        return fish.name that was bought and push into the empty container
+
+
+
+    } 
+
+    return container
+    
+    
+}
+
+
+
+}
+
+
+Now we return the name of the fish and return 3 diffrent meal types with that fish name (ex tuna soup)
+ 
+for example:
+
+ htmlString += `<section class="TBD">
+            
+            <div class="TBD">Fish Name: ${TBD.name}</div>
+            <div class="TBD">soup: ${TBD.nam}</div>
+            <div class="TBD"> sandwitch: ${TBD.nam}</div>
+            <div class="TBD"> grilled: ${TBD.nam}</div>
+            
+        </section>
+`
+    }
+    htmlString += `</article>`
+
+    return htmlString
+
+
 */
 
 
